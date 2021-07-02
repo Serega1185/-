@@ -79,7 +79,7 @@
                                         .katalog__panel {
                                             overflow: scroll;
                                             overflow-x: hidden;
-                                            height: calc(100vh - 65px);
+                                            height: 100%;
                                             display: flex;
                                             justify-content: space-between;
                                             max-width: 1140px;
@@ -3448,6 +3448,9 @@
                                         }
                                         
                                         @media (max-width: 768px) {
+                                            .katalog__panel {
+                                                height: calc(100vh - 65px);
+                                            }
                                             .katalog__item-link--active::before,
                                             .katalog__item-link:hover::before,
                                             .katalog__item-link--active {
