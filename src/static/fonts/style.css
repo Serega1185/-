@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter Extra Light BETA'), local('Inter-Extra-Light-BETA'),
+        url('Inter-ExtraLightBETA.woff2') format('woff2'),
+        url('Inter-ExtraLightBETA.woff') format('woff'),
+        url('Inter-ExtraLightBETA.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }

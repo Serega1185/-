@@ -1,0 +1,99 @@
+.card-check {
+  background: #fdfdfe;
+  border-radius: 10px;
+  padding: 5px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 450ms;
+}
+.card-check__title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #080433;
+}
+.card-check__foundation {
+  color: #080433;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  opacity: 0.5;
+}
+.card-check__bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.card-check__block {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.card-check__price {
+  color: #a8b0c0;
+  margin-right: 10px;
+}
+.card-check__total {
+  color: #080433;
+}
+.card-check__control {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  grid-gap: 7px;
+}
+@media (max-width: 575px) {
+  .card-check__control {
+    justify-content: space-between;
+  }
+}
+.card-check__btn {
+  font-weight: 600;
+  padding: 3px 16px 4px;
+  font-size: 16px;
+  line-height: 24px;
+  height: 100%;
+  background: #d9d9d9;
+  border-radius: 40px;
+  color: #000000;
+}
+.card-check__comment {
+  min-height: 68px;
+  padding: 11px 20px;
+  position: relative;
+  background: #a8b0c0;
+  border-radius: 20px;
+}
+.card-check__comment-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.card-check__comment-text {
+  color: #080433;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  background: none;
+  outline: 0;
+  resize: none;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.check-order__list--confirmed .card-check,
+.check-order__list--confirmed .check-order__list-title {
+  pointer-events: none;
+}
+.check-order__list--confirmed .confirmed-hidden {
+  display: none;
+  pointer-events: none;
+}
+.check-order__list--confirmed .card-check__comment-text {
+  pointer-events: none;
+}/*# sourceMappingURL=CheckOrder.css.map */

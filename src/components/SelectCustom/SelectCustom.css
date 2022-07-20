@@ -1,0 +1,51 @@
+.select-custom {
+  outline: 0;
+  border: 0;
+  background: none;
+  min-width: 160px;
+  max-width: 160px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #080433;
+  display: flex;
+  align-items: center;
+}
+.select-custom svg {
+  fill: #080433;
+}
+@media (max-width: 374px) {
+  .select-custom {
+    min-width: 125px;
+    max-width: 125px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+.select-custom--top {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  min-width: 92px;
+  max-width: 92px;
+}
+.select-custom--top svg {
+  transform: scale(0.9);
+}
+.select-custom .css-x50rsm-control,
+.select-custom .css-qfr9n1-control {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.select-custom .css-x50rsm-control div,
+.select-custom .css-qfr9n1-control div {
+  padding: 0 !important;
+}
+.select-custom .css-x50rsm-control .css-1gtu0rj-indicatorContainer:nth-of-type(1),
+.select-custom .css-x50rsm-control .css-tlfecz-indicatorContainer:nth-of-type(1),
+.select-custom .css-x50rsm-control .css-1okebmr-indicatorSeparator,
+.select-custom .css-qfr9n1-control .css-1gtu0rj-indicatorContainer:nth-of-type(1),
+.select-custom .css-qfr9n1-control .css-tlfecz-indicatorContainer:nth-of-type(1),
+.select-custom .css-qfr9n1-control .css-1okebmr-indicatorSeparator {
+  display: none;
+}/*# sourceMappingURL=SelectCustom.css.map */

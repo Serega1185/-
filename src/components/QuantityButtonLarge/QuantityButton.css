@@ -1,0 +1,24 @@
+.quantity-button {
+  background: #e6e7eb;
+  border-radius: 16px;
+  height: 32px;
+  padding: 0 19px;
+  display: flex;
+  align-items: center;
+}
+.quantity-button button {
+  background: none;
+  height: 24px;
+  width: 24px;
+}
+.quantity-button__input {
+  outline: 0;
+  background: none;
+  border: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #080433;
+  width: 28px;
+}/*# sourceMappingURL=QuantityButton.css.map */
